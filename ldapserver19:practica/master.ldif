@@ -1,0 +1,13 @@
+dn: uid=marta,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: objectclass
+objectclass: x-masters
+-
+add: x-master
+x-master: Informatica
+-
+add: x-matriculat
+x-matriculat: TRUE
+-
+add: x-foto
+x-foto: /opt/docker/foto.jpeg
